@@ -1,0 +1,12 @@
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\bin\RabbitMQTest.Web.dll.config
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\bin\RabbitMQTest.Web.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\bin\RabbitMQTest.Web.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\bin\RabbitMQ.Client.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\bin\RabbitMQ.Client.xml
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\obj\Debug\RabbitMQTest.Web.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\obj\Debug\RabbitMQTest.Web.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\obj\Debug\RabbitMQTest.Web.csprojResolveAssemblyReference.cache
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\bin\RabbitMQTest.Model.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\bin\RabbitMQTest.Utils.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\bin\RabbitMQTest.Model.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Web\bin\RabbitMQTest.Utils.pdb

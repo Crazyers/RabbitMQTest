@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>要求已經中止: 作業逾時。</title>
+    <meta name="viewport" content="width=device-width" />
+    <style>
+        body {
+            font-family: "Verdana";
+            font-weight: normal;
+            font-size: .7em;
+            color: black;
+        }
+
+        p {
+            font-family: "Verdana";
+            font-weight: normal;
+            color: black;
+            margin-top: -5px;
+        }
+
+        b {
+            font-family: "Verdana";
+            font-weight: bold;
+            color: black;
+            margin-top: -5px;
+        }
+
+        H1 {
+            font-family: "Verdana";
+            font-weight: normal;
+            font-size: 18pt;
+            color: red;
+        }
+
+        H2 {
+            font-family: "Verdana";
+            font-weight: normal;
+            font-size: 14pt;
+            color: maroon;
+        }
+
+        pre {
+            font-family: "Consolas","Lucida Console",Monospace;
+            font-size: 11pt;
+            margin: 0;
+            padding: 0.5em;
+            line-height: 14pt;
+        }
+
+        .marker {
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+        }
+
+        .version {
+            color: gray;
+        }
+
+        .error {
+            margin-bottom: 10px;
+        }
+
+        .expandable {
+            text-decoration: underline;
+            font-weight: bold;
+            color: navy;
+            cursor: hand;
+        }
+
+        @media screen and (max-width: 639px) {
+            pre {
+                width: 440px;
+                overflow: auto;
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+        }
+
+        @media screen and (max-width: 479px) {
+            pre {
+                width: 280px;
+            }
+        }
+    </style>
+</head>
+
+<body bgcolor="white">
+
+    <span>
+        <h1>'/WCFMQWebClient' 應用程式中發生伺服器錯誤。<hr width=100% size=1 color=silver></h1>
+
+        <h2> <i>要求已經中止: 作業逾時。</i> </h2>
+    </span>
+
+    <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+        <b> 描述: </b>在執行目前 Web 要求的過程中發生未處理的例外狀況。請檢閱堆疊追蹤以取得錯誤的詳細資訊，以及在程式碼中產生的位置。
+
+        <br><br>
+
+        <b> 例外狀況詳細資訊: </b>System.Net.WebException: 要求已經中止: 作業逾時。<br><br>
+
+        <b>原始程式錯誤:</b> <br><br>
+
+        <table width=100% bgcolor="#ffffcc">
+            <tr>
+                <td>
+                    <code>
+
+                        在執行目前 Web 要求期間，產生未處理的例外狀況。如需有關例外狀況來源與位置的資訊，可以使用下列的例外狀況堆疊追蹤取得。
+                    </code>
+
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <b>堆疊追蹤:</b> <br><br>
+
+        <table width=100% bgcolor="#ffffcc">
+            <tr>
+                <td>
+                    <code>
+                        <pre>
+[WebException: 要求已經中止: 作業逾時。]
+   System.Net.HttpWebRequest.GetResponse() +1390
+   System.ServiceModel.Channels.HttpChannelRequest.WaitForReply(TimeSpan timeout) +55
+[TimeoutException: 對 &#39;http://10.7.46.42:8020/WCFMQService/MQService.svc&#39; 的 HTTP 要求已超出分配的逾時 00:01:00。分配給此作業的時間可能是較長逾時的一部分。]
+   System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason) +5125805
+   System.ServiceModel.Channels.HttpChannelRequest.WaitForReply(TimeSpan timeout) +429
+   System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout) +344
+[TimeoutException: 要求通道在等待回覆時於 00:00:59.9989999 之後逾時。請增加傳送至要求呼叫的逾時值，或增加繫結上的 SendTimeout 值。分配給此作業的時間可能是較長逾時的一部分。]
+   System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg) +153
+   System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type) +336
+   RabbitMQTest.Web.WCFMQService.IMQService.ContactListApply(RequestEntity request) +0
+   RabbitMQTest.Web.WCFMQService.MQServiceClient.ContactListApply(RequestEntity request) in e:\Program\Local\RabbitMQTest\RabbitMQTest.Web\Service References\WCFMQService\Reference.cs:193
+   RabbitMQTest.Web.WCFTestForm.btnGenNo_Click(Object sender, EventArgs e) in e:\Program\Local\RabbitMQTest\RabbitMQTest.Web\WCFTestForm.aspx.cs:23
+   System.Web.UI.WebControls.Button.OnClick(EventArgs e) +9696694
+   System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument) +204
+   System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument) +12
+   System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument) +15
+   System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData) +35
+   System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint) +1639
+</pre>
+                    </code>
+
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <hr width=100% size=1 color=silver>
+
+        <b>版本資訊:</b>&nbsp;Microsoft .NET Framework 版本:4.0.30319; ASP.NET 版本:4.6.1055.0
+
+    </font>
+
+</body>
+</html>
+<!--
+[WebException]: 要求已經中止: 作業逾時。
+   於 System.Net.HttpWebRequest.GetResponse()
+   於 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+[TimeoutException]: 對 &#39;http://10.7.46.42:8020/WCFMQService/MQService.svc&#39; 的 HTTP 要求已超出分配的逾時 00:01:00。分配給此作業的時間可能是較長逾時的一部分。
+   於 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   於 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   於 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+[TimeoutException]: 要求通道在等待回覆時於 00:00:59.9989999 之後逾時。請增加傳送至要求呼叫的逾時值，或增加繫結上的 SendTimeout 值。分配給此作業的時間可能是較長逾時的一部分。
+
+Server stack trace:
+   於 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   於 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   於 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   於 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   於 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]:
+   於 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   於 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   於 RabbitMQTest.Web.WCFMQService.IMQService.ContactListApply(RequestEntity request)
+   於 RabbitMQTest.Web.WCFMQService.MQServiceClient.ContactListApply(RequestEntity request) 於 e:\Program\Local\RabbitMQTest\RabbitMQTest.Web\Service References\WCFMQService\Reference.cs: 行 193
+   於 RabbitMQTest.Web.WCFTestForm.btnGenNo_Click(Object sender, EventArgs e) 於 e:\Program\Local\RabbitMQTest\RabbitMQTest.Web\WCFTestForm.aspx.cs: 行 23
+   於 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   於 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   於 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   於 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   於 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[HttpUnhandledException]: 已發生類型 &#39;System.Web.HttpUnhandledException&#39; 的例外狀況。
+   於 System.Web.UI.Page.HandleError(Exception e)
+   於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   於 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   於 System.Web.UI.Page.ProcessRequest()
+   於 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   於 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   於 ASP.wcftestform_aspx.ProcessRequest(HttpContext context) 於 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\wcfmqwebclient\e366aa4d\f9afaa74\App_Web_nhqpzwwv.1.cs: 行 0
+   於 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   於 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-->
+<!--
+此錯誤頁面可能包含敏感性資料，因為 ASP.NET 是設定成使用 &lt;customErrors mode="Off"/&gt; 顯示詳細資訊錯誤訊息。請考慮在實際執行環境中使用 &lt;customErrors mode="On"/&gt; 或 &lt;customErrors mode="RemoteOnly"/&gt;。-->

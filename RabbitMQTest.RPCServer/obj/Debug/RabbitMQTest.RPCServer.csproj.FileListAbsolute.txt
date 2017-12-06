@@ -1,0 +1,12 @@
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\obj\Debug\RabbitMQTest.RPCServer.csprojResolveAssemblyReference.cache
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\bin\Debug\RabbitMQTest.RPCServer.exe.config
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\bin\Debug\RabbitMQTest.RPCServer.exe
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\bin\Debug\RabbitMQTest.RPCServer.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\bin\Debug\RabbitMQ.Client.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\bin\Debug\RabbitMQTest.Utils.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\bin\Debug\RabbitMQTest.Utils.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\bin\Debug\RabbitMQ.Client.xml
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\obj\Debug\RabbitMQTest.RPCServer.exe
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\obj\Debug\RabbitMQTest.RPCServer.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\bin\Debug\RabbitMQTest.Model.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.RPCServer\bin\Debug\RabbitMQTest.Model.pdb

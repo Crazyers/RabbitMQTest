@@ -1,0 +1,12 @@
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\obj\Debug\RabbitMQTest.WCF.csprojResolveAssemblyReference.cache
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\bin\RabbitMQTest.WCF.dll.config
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\bin\RabbitMQTest.WCF.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\bin\RabbitMQTest.WCF.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\bin\RabbitMQ.Client.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\bin\RabbitMQTest.Model.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\bin\RabbitMQTest.Utils.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\bin\RabbitMQTest.Model.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\bin\RabbitMQTest.Utils.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\bin\RabbitMQ.Client.xml
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\obj\Debug\RabbitMQTest.WCF.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.WCF\obj\Debug\RabbitMQTest.WCF.pdb

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/RabbitMQTest.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RabbitMQTest.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://10.7.249.21:1000/WCFMQService/MQService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="RequestEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GenNoType" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SQLList" nillable="true" type="q1:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RequestEntity" nillable="true" type="tns:RequestEntity" />
+  <xs:complexType name="ResponseEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="HandleMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HandleResult" type="xs:boolean" />
+      <xs:element minOccurs="0" name="No" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResponseEntity" nillable="true" type="tns:ResponseEntity" />
+</xs:schema>

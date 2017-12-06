@@ -1,0 +1,7 @@
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Utils\bin\Debug\RabbitMQTest.Utils.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Utils\bin\Debug\RabbitMQTest.Utils.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Utils\obj\Debug\RabbitMQTest.Utils.csprojResolveAssemblyReference.cache
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Utils\obj\Debug\RabbitMQTest.Utils.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Utils\obj\Debug\RabbitMQTest.Utils.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Utils\bin\Debug\RabbitMQTest.Model.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Utils\bin\Debug\RabbitMQTest.Model.pdb

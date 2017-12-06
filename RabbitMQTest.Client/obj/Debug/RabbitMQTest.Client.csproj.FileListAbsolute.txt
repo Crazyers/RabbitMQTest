@@ -1,0 +1,11 @@
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Client\bin\Debug\RabbitMQTest.Client.exe.config
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Client\bin\Debug\RabbitMQTest.Client.exe
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Client\bin\Debug\RabbitMQTest.Client.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Client\bin\Debug\RabbitMQ.Client.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Client\bin\Debug\RabbitMQ.Client.xml
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Client\obj\Debug\RabbitMQTest.Client.Form1.resources
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Client\obj\Debug\RabbitMQTest.Client.Properties.Resources.resources
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Client\obj\Debug\RabbitMQTest.Client.csproj.GenerateResource.Cache
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Client\obj\Debug\RabbitMQTest.Client.exe
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Client\obj\Debug\RabbitMQTest.Client.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Client\obj\Debug\RabbitMQTest.Client.csprojResolveAssemblyReference.cache

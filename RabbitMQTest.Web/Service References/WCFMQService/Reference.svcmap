@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d724ae8f-1cfe-477d-98d2-23c712c53376" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.7.249.21:1000/WCFMQService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MQService.wsdl" MetadataType="Wsdl" ID="2ca4a302-a063-40de-9d08-57118d6c878b" SourceId="1" SourceUrl="http://10.7.249.21:1000/WCFMQService/MQService.svc?wsdl" />
+    <MetadataFile FileName="MQService.xsd" MetadataType="Schema" ID="c843d2e9-ab7f-4480-b9e3-fa324d61a234" SourceId="1" SourceUrl="http://10.7.249.21:1000/WCFMQService/MQService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MQService1.xsd" MetadataType="Schema" ID="5a04ae3d-da62-4d52-9cbb-2eff4148165d" SourceId="1" SourceUrl="http://10.7.249.21:1000/WCFMQService/MQService.svc?xsd=xsd3" />
+    <MetadataFile FileName="MQService2.xsd" MetadataType="Schema" ID="f751a62e-f3f7-4cd4-9722-2736b35380c9" SourceId="1" SourceUrl="http://10.7.249.21:1000/WCFMQService/MQService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MQService.disco" MetadataType="Disco" ID="a6bf953c-cf91-40a5-89ef-3b08b5ea2cfa" SourceId="1" SourceUrl="http://10.7.249.21:1000/WCFMQService/MQService.svc?disco" />
+    <MetadataFile FileName="MQService3.xsd" MetadataType="Schema" ID="80ee39c5-9d29-46de-82c4-ec718fc8504b" SourceId="1" SourceUrl="http://10.7.249.21:1000/WCFMQService/MQService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

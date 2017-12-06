@@ -1,0 +1,7 @@
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Server\bin\Debug\RabbitMQTest.Server.exe.config
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Server\bin\Debug\RabbitMQTest.Server.exe
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Server\bin\Debug\RabbitMQTest.Server.pdb
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Server\bin\Debug\RabbitMQ.Client.dll
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Server\bin\Debug\RabbitMQ.Client.xml
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Server\obj\Debug\RabbitMQTest.Server.exe
+E:\Program\Local\RabbitMQTest\RabbitMQTest.Server\obj\Debug\RabbitMQTest.Server.pdb
